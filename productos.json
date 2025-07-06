@@ -1,0 +1,13 @@
+[
+  {
+    "id": 2,
+    "title": "Nueva Camisa",
+    "description": "Camisa de algodón",
+    "code": "C001",
+    "price": 25.5,
+    "status": true,
+    "stock": 20,
+    "category": "Ropa",
+    "thumbnails": []
+  }
+]
