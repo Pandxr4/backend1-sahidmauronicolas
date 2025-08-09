@@ -1,13 +1,35 @@
 [
   {
+    "id": 1,
+    "title": "Camiseta Deportiva",
+    "description": "Camiseta transpirable de poliéster",
+    "code": "CAM001",
+    "price": 19.99,
+    "status": true,
+    "stock": 50,
+    "category": "Ropa",
+    "thumbnails": []
+  },
+  {
     "id": 2,
-    "title": "Nueva Camisa",
-    "description": "Camisa de algodón",
-    "code": "C001",
+    "title": "Zapatillas Running",
+    "description": "Zapatillas ligeras para correr",
+    "code": "ZAP001",
+    "price": 49.99,
+    "status": true,
+    "stock": 30,
+    "category": "Calzado",
+    "thumbnails": []
+  },
+  {
+    "id": 3,
+    "title": "Mochila Urbana",
+    "description": "Mochila resistente al agua",
+    "code": "MOC001",
     "price": 25.5,
     "status": true,
     "stock": 20,
-    "category": "Ropa",
+    "category": "Accesorios",
     "thumbnails": []
   }
 ]

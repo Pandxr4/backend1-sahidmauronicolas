@@ -1,0 +1,102 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 1rem;
+  color: #333;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+
+h1, h2 {
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+ul#products-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul#products-list li {
+  background: #fafafa;
+  margin-bottom: 0.7rem;
+  padding: 0.7rem 1rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+ul#products-list li button.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+}
+
+ul#products-list li button.delete-btn:hover {
+  background: #c0392b;
+}
+
+form#addProductForm {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+form#addProductForm input,
+form#addProductForm button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form#addProductForm input:focus {
+  outline-color: #3498db;
+  border-color: #3498db;
+}
+
+form#addProductForm button {
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  grid-column: span 2;
+  transition: background-color 0.3s ease;
+}
+
+form#addProductForm button:hover {
+  background: #2980b9;
+}
+
+p#no-products {
+  font-style: italic;
+  color: #666;
+}
+
+@media (max-width: 500px) {
+  form#addProductForm {
+    grid-template-columns: 1fr;
+  }
+  
+  form#addProductForm button {
+    grid-column: span 1;
+  }
+}
